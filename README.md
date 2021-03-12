@@ -1,6 +1,6 @@
-# Starter Project
+# Expanding Cards
 
-This project is a starter configuration for a project using React, Typescript, Cypress, Eslint, and Prettier.
+This is a practice project based on Brad Traversy's JS50 series. With added react, typescript, cypress, eslint, and prettier.
 
 ## Available Scripts
 
