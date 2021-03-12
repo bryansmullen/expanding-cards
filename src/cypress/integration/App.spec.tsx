@@ -1,6 +1,6 @@
 export {};
 
-it("should work", () => {
-  cy.visit("http://localhost:3000");
-  cy.get("a").should("have.text", "Learn React");
+it('should work', () => {
+    cy.visit('http://localhost:3000');
+    cy.get('h1').should('have.text', 'Project Starter');
 });
