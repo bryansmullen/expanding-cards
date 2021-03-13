@@ -1,9 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
+import Panels from './cypress/components/Panel/Panels';
 
+const Header = styled.header`
+    margin: 40px 0;
+`;
 const H1 = styled.h1`
-    font-family: Roboto, Tahoma, Sans-Serif;
-    font-size: 3rem;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 2rem;
 `;
 
 const Container = styled.div`
@@ -15,10 +19,20 @@ const Container = styled.div`
     overflow: hidden;
 `;
 
-const App = (): JSX.Element => {
+const Footer = styled.footer`
+    margin: 40px 0;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 1rem;
+`;
+
+const App = (): React.ReactElement => {
     return (
         <Container className="App">
-            <H1>Project Starter</H1>
+            <Header>
+                <H1>Expanding Cards</H1>
+            </Header>
+            <Panels />
+            <Footer>Bryan Mullen {new Date().getFullYear()}</Footer>
         </Container>
     );
 };
