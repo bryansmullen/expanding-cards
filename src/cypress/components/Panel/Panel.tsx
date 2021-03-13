@@ -12,7 +12,7 @@ const PanelDiv = styled.div`
     flex: 0.5;
     margin: 10px;
     position: relative;
-    transition: flex 0.7s ease-in;
+    transition: all 0.7s ease-in;
     &:hover {
         flex: 5;
         h3 {
